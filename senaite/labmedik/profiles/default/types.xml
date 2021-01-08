@@ -8,6 +8,8 @@
   -->
 <object name="portal_types" meta_type="Plone Types Tool">
   <!-- -*- extra stuff goes here -*- -->
-  <object name="COVID-19 Cases Folder"
+  <object name="COVID19Case"
+    meta_type="Factory-based Type Information with dynamic views" />
+  <object name="COVID19Cases"
     meta_type="Factory-based Type Information with dynamic views" />
 </object>

@@ -10,6 +10,7 @@
 <object name="portal_factory" meta_type="Plone Factory Tool">
   <factorytypes>
     <!-- -*- extra stuff goes here -*- -->
-    <type portal_type="COVID-19 Cases Folder" />
+    <type portal_type="COVID19Case" />
+    <type portal_type="COVID19Cases" />
   </factorytypes>
 </object>

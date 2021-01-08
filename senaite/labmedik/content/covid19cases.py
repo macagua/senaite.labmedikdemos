@@ -1,4 +1,4 @@
-"""Definition of the COVID-19 Cases Folder content type
+"""Definition of the COVID-19 Cases content type
 """
 
 from zope.interface import implements
@@ -9,10 +9,10 @@ from Products.ATContentTypes.content import schemata
 
 # -*- Message Factory Imported Here -*-
 
-from senaite.labmedik.interfaces import ICOVID-19CasesFolder
+from senaite.labmedik.interfaces import ICOVID19Cases
 from senaite.labmedik.config import PROJECTNAME
 
-COVID-19CasesFolderSchema = folder.ATFolderSchema.copy() + atapi.Schema((
+COVID19CasesSchema = folder.ATFolderSchema.copy() + atapi.Schema((
 
     # -*- Your Archetypes field definitions here ... -*-
 
@@ -21,26 +21,26 @@ COVID-19CasesFolderSchema = folder.ATFolderSchema.copy() + atapi.Schema((
 # Set storage on fields copied from ATFolderSchema, making sure
 # they work well with the python bridge properties.
 
-COVID-19CasesFolderSchema['title'].storage = atapi.AnnotationStorage()
-COVID-19CasesFolderSchema['description'].storage = atapi.AnnotationStorage()
+COVID19CasesSchema['title'].storage = atapi.AnnotationStorage()
+COVID19CasesSchema['description'].storage = atapi.AnnotationStorage()
 
 schemata.finalizeATCTSchema(
-    COVID-19CasesFolderSchema,
+    COVID19CasesSchema,
     folderish=True,
     moveDiscussion=False
 )
 
 
-class COVID-19CasesFolder(folder.ATFolder):
+class COVID19Cases(folder.ATFolder):
     """A folderish for COVID-19 Cases"""
-    implements(ICOVID-19CasesFolder)
+    implements(ICOVID19Cases)
 
-    meta_type = "COVID-19CasesFolder"
-    schema = COVID-19CasesFolderSchema
+    meta_type = "COVID19Cases"
+    schema = COVID19CasesSchema
 
     title = atapi.ATFieldProperty('title')
     description = atapi.ATFieldProperty('description')
 
     # -*- Your ATSchema to Python Property Bridges Here ... -*-
 
-atapi.registerType(COVID-19CasesFolder, PROJECTNAME)
+atapi.registerType(COVID19Cases, PROJECTNAME)

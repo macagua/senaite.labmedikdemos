@@ -2,7 +2,11 @@
 <rolemap>
   <permissions>
     <!-- -*- extra stuff goes here -*- -->
-    <permission name="senaite.labmedik: Add COVID-19 Cases Folder" acquire="False">
+    <permission name="senaite.labmedik: Add COVID-19 Case" acquire="False">
+      <role name="Manager" />
+      <role name="Contributor" />
+    </permission>
+    <permission name="senaite.labmedik: Add COVID-19 Cases" acquire="False">
       <role name="Manager" />
       <role name="Contributor" />
     </permission>

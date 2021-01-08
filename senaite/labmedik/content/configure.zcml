@@ -6,10 +6,16 @@
   <!-- configure your content components here -->
   
   <!-- -*- extra stuff goes here -*- -->
-  <class class=".covid-19casesfolder.COVID-19CasesFolder">
+  <class class=".covid19case.COVID19Case">
     <require
         permission="zope2.View"
-        interface="..interfaces.ICOVID-19CasesFolder"
+        interface="..interfaces.ICOVID19Case"
+        />
+  </class>
+  <class class=".covid19cases.COVID19Cases">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.ICOVID19Cases"
         />
   </class>
 

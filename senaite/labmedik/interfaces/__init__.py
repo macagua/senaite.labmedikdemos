@@ -1,2 +1,3 @@
 # -*- extra stuff goes here -*-
-from covid-19casesfolder import ICOVID-19CasesFolder
+from covid19case import ICOVID19Case
+from covid19cases import ICOVID19Cases
