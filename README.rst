@@ -11,11 +11,13 @@ Features
 
 - COVID-19 Case content type, for register for a COVID-19 Case.
 
-- @@hello Zope 2 View
+- @@hello Zope 2 View.
 
-- @@helloworld_view A Plone Browser View
+- @@helloworld_view A Plone Browser View.
 
-- A Hello World Viewlet at IAboveContent
+- A Hello World Viewlet at IAboveContent.
+
+- Some resources files demo for images, javascripts and stylesheets.
 
 
 Examples
@@ -63,7 +65,7 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/senaite.labmedik/issues
 - Source Code: https://github.com/collective/senaite.labmedik
-- Documentation: https://docs.plone.org/foo/bar
+- Documentation: https://www.senaite.com/docs/quickstart
 
 Support
 =======
