@@ -8,7 +8,9 @@ This packages includes:
 
 - @@hello Zope 2 View
 
-- @@helloworld_view Plone Browser View
+- @@helloworld_view A Plone Browser View
+
+- A Hello World Viewlet at IAboveContent
 
 - Code repository: https://github.com/collective/senaite.labmedik
 - Report bugs at https://github.com/collective/senaite.labmedik/issues

@@ -23,4 +23,12 @@
       permission="zope2.Public"
       />
 
+  <browser:viewlet
+      name="senaite.labmedik.helloworld"
+      manager="plone.app.layout.viewlets.interfaces.IAboveContent"
+      class=".viewlets.MyHelloWorldViewlet"
+      permission="senaite.core.permissions.ManageBika"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
 </configure>

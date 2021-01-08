@@ -1,0 +1,4 @@
+<div id="hello-world">
+  <span tal:content="view/company|nothing"/>
+  <b>¡Haga <a href="#" onclick="helloworld()">clic</a> para probar!</b>
+</div>
