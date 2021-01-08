@@ -1,4 +1,7 @@
 <div id="hello-world">
   <span tal:content="view/company|nothing"/>
   <b>¡Haga <a href="#" onclick="helloworld()">clic</a> para probar!</b>
+  <br/>
+  <img alt="Netmedik"
+       tal:attributes="src string:${context/@@plone_portal_state/portal_url}/++resource++senaite.labmedik.images/netmedik-logo.png" />
 </div>
