@@ -44,4 +44,15 @@
       layer="bika.lims.interfaces.IBikaLIMS"
       />
 
+  <!-- Resource directory for javascripts
+    See senaite/labmedik/browser/javascripts/README.txt
+    for more information about registering javascripts as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="senaite.labmedik.javascripts"
+      directory="javascripts"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
 </configure>
