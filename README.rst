@@ -2,6 +2,11 @@
 senaite.labmedik
 ================
 
+.. figure:: https://raw.githubusercontent.com/senaite/senaite.labmedik/main/senaite/labmedik/browser/images/netmedik-logo.png
+   :width: 500px
+   :alt: senaite.labmedik
+   :align: center
+
 SENAITE LIMS extension for LabMedik Solution.
 
 Features
