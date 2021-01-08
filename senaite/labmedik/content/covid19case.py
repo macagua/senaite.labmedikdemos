@@ -34,13 +34,17 @@ COVID19CaseSchema = schemata.ATContentTypeSchema.copy() + atapi.Schema((
 COVID19CaseSchema['title'].storage = atapi.AnnotationStorage()
 COVID19CaseSchema['description'].storage = atapi.AnnotationStorage()
 
-# COVID19CaseSchema["title"].required = False
-# COVID19CaseSchema["title"].widget.visible = False
-# COVID19CaseSchema["title"].widget.description = _("If no Title value is entered,"
-#                                                   " the Batch ID will be used.")
-# COVID19CaseSchema['description'].required = False
-# COVID19CaseSchema["description"].widget.visible = False
+COVID19CaseSchema['title'].validators = ()
+COVID19CaseSchema['title'].widget.description = _("If no value is entered, the Title"
+                                                  " will be auto-generated.")
 
+COVID19CaseSchema['title'].required = False
+COVID19CaseSchema['title'].widget.visible = False
+COVID19CaseSchema['title'].widget.description = _("If no description value is entered,"
+                                                  " the COVID-19 Case ID will be used.")
+
+COVID19CaseSchema['description'].required = False
+COVID19CaseSchema["description"].widget.visible = False
 
 schemata.finalizeATCTSchema(COVID19CaseSchema, moveDiscussion=False)
 
