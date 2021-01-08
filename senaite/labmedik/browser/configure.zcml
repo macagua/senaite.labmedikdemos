@@ -31,4 +31,17 @@
       layer="bika.lims.interfaces.IBikaLIMS"
       />
 
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for stylesheets
+    See senaite/labmedik/browser/stylesheets/README.txt
+    for more information about registering stylesheets as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="senaite.labmedik.stylesheets"
+      directory="stylesheets"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
 </configure>
