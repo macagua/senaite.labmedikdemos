@@ -1,5 +1,5 @@
 README for the 'browser/stylesheets/' directory
-==========================================
+===============================================
 
 This folder is a Zope 3 Resource Directory acting as a repository for stylesheets.
 
