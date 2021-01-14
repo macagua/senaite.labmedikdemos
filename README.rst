@@ -3,6 +3,7 @@ senaite.labmedikdemos
 =====================
 
 .. figure:: https://raw.githubusercontent.com/macagua/senaite.labmedikdemos/main/senaite/labmedikdemos/browser/images/netmedik-logo.png
+   :target: https://www.netmedik.com/
    :width: 500px
    :alt: senaite.labmedikdemos
    :align: center
