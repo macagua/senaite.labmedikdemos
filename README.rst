@@ -7,7 +7,7 @@ senaite.labmedikdemos
    :alt: senaite.labmedikdemos
    :align: center
 
-SENAITE LIMS extension for LabMedik Solution.
+Custom demostration extension that adapts SENAITE LIMS for LabMedik Solution.
 
 Features
 ========

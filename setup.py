@@ -42,7 +42,7 @@ tests_require = ['zope.testing']
 
 setup(name='senaite.labmedikdemos',
       version=version,
-      description="SENAITE LIMS extension for LabMedik Solution",
+      description="Custom demostration extension that adapts SENAITE LIMS for LabMedik Solution.",
       long_description=long_description,
       # Get more strings from
       # https://pypi.org/pypi?:action=list_classifiers
