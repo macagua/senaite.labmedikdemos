@@ -8,7 +8,7 @@ Its declaration is located in 'browser/configure.zcml':
 
     <!-- Resource directory for javascripts -->
     <browser:resourceDirectory
-        name="senaite.labmedik.javascripts"
+        name="senaite.labmedikdemos.javascripts"
         directory="javascripts"
         layer="bika.lims.interfaces.IBikaLIMS"
         />
@@ -16,7 +16,7 @@ Its declaration is located in 'browser/configure.zcml':
 A javascript placed in this directory (e.g. 'helloworld.js') can be accessed from
 this relative URL:
 
-    "++resource++senaite.labmedik.javascripts/helloworld.js"
+    "++resource++senaite.labmedikdemos.javascripts/helloworld.js"
 
 Note that it might be better to register each of these resources separately if
 you want them to be overridable from zcml directives.

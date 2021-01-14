@@ -25,7 +25,7 @@
       -->
 
  <stylesheet title=""
-    id="++resource++senaite.labmedik.stylesheets/main.css"
+    id="++resource++senaite.labmedikdemos.stylesheets/main.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression="" />

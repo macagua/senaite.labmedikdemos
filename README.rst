@@ -1,10 +1,10 @@
-================
-senaite.labmedik
-================
+=====================
+senaite.labmedikdemos
+=====================
 
-.. figure:: https://raw.githubusercontent.com/macagua/senaite.labmedik/main/senaite/labmedik/browser/images/netmedik-logo.png
+.. figure:: https://raw.githubusercontent.com/macagua/senaite.labmedikdemos/main/senaite/labmedikdemos/browser/images/netmedik-logo.png
    :width: 500px
-   :alt: senaite.labmedik
+   :alt: senaite.labmedikdemos
    :align: center
 
 SENAITE LIMS extension for LabMedik Solution.
@@ -51,14 +51,14 @@ This product has been translated into
 Installation
 ============
 
-Install senaite.labmedik by adding it to your buildout:
+Install ``senaite.labmedikdemos`` by adding it to your buildout:
 
    [buildout]
 
     ...
 
     eggs =
-        senaite.labmedik
+        senaite.labmedikdemos
 
 
 and then running "bin/buildout"
@@ -68,8 +68,8 @@ and then running "bin/buildout"
 Contribute
 ==========
 
-- Issue Tracker: https://github.com/collective/senaite.labmedik/issues
-- Source Code: https://github.com/collective/senaite.labmedik
+- Issue Tracker: https://github.com/collective/senaite.labmedikdemos/issues
+- Source Code: https://github.com/collective/senaite.labmedikdemos
 - Documentation: https://www.senaite.com/docs/quickstart
 
 Support

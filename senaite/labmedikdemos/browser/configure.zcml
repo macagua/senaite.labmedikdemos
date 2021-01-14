@@ -1,7 +1,7 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="senaite.labmedik">
+    i18n_domain="senaite.labmedikdemos">
 
   <include package="plone.app.contentmenu" />
 
@@ -24,7 +24,7 @@
       />
 
   <browser:viewlet
-      name="senaite.labmedik.helloworld"
+      name="senaite.labmedikdemos.helloworld"
       manager="plone.app.layout.viewlets.interfaces.IAboveContent"
       class=".viewlets.MyHelloWorldViewlet"
       permission="senaite.core.permissions.ManageBika"
@@ -34,34 +34,34 @@
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images
-    See senaite/labmedik/browser/images/README.txt
+    See senaite/labmedikdemos/browser/images/README.txt
     for more information about registering images as Zope 3 browser
     resources.
   -->
   <browser:resourceDirectory
-      name="senaite.labmedik.images"
+      name="senaite.labmedikdemos.images"
       directory="images"
       layer="bika.lims.interfaces.IBikaLIMS"
       />
 
   <!-- Resource directory for stylesheets
-    See senaite/labmedik/browser/stylesheets/README.txt
+    See senaite/labmedikdemos/browser/stylesheets/README.txt
     for more information about registering stylesheets as Zope 3 browser
     resources.
   -->
   <browser:resourceDirectory
-      name="senaite.labmedik.stylesheets"
+      name="senaite.labmedikdemos.stylesheets"
       directory="stylesheets"
       layer="bika.lims.interfaces.IBikaLIMS"
       />
 
   <!-- Resource directory for javascripts
-    See senaite/labmedik/browser/javascripts/README.txt
+    See senaite/labmedikdemos/browser/javascripts/README.txt
     for more information about registering javascripts as Zope 3 browser
     resources.
   -->
   <browser:resourceDirectory
-      name="senaite.labmedik.javascripts"
+      name="senaite.labmedikdemos.javascripts"
       directory="javascripts"
       layer="bika.lims.interfaces.IBikaLIMS"
       />

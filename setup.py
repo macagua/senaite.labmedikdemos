@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-This module contains the tool of senaite.labmedik
+This module contains the tool of senaite.labmedikdemos
 """
 import os
 from setuptools import setup, find_packages
@@ -22,13 +22,13 @@ long_description = (
     'Detailed Documentation\n'
     '**********************\n'
     + '\n' +
-    read('senaite', 'labmedik', 'README.rst')
+    read('senaite', 'labmedikdemos', 'README.rst')
     + '\n' +
-    read('senaite', 'labmedik', 'browser', 'images', 'README.rst')
+    read('senaite', 'labmedikdemos', 'browser', 'images', 'README.rst')
     + '\n' +
-    read('senaite', 'labmedik', 'browser', 'javascripts', 'README.rst')
+    read('senaite', 'labmedikdemos', 'browser', 'javascripts', 'README.rst')
     + '\n' +
-    read('senaite', 'labmedik', 'browser', 'stylesheets', 'README.rst')
+    read('senaite', 'labmedikdemos', 'browser', 'stylesheets', 'README.rst')
     + '\n' +
     'Contributors\n'
     '************\n'
@@ -40,7 +40,7 @@ long_description = (
 
 tests_require = ['zope.testing']
 
-setup(name='senaite.labmedik',
+setup(name='senaite.labmedikdemos',
       version=version,
       description="SENAITE LIMS extension for LabMedik Solution",
       long_description=long_description,
@@ -54,7 +54,7 @@ setup(name='senaite.labmedik',
       keywords='lims lis senaite opensource health labmedik',
       author='Leonardo J. Caballero G.',
       author_email='leonardocaballero@gmail.com',
-      url='https://github.com/collective/senaite.labmedik',
+      url='https://github.com/collective/senaite.labmedikdemos',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['senaite', ],
@@ -65,7 +65,7 @@ setup(name='senaite.labmedik',
                         ],
       tests_require=tests_require,
       extras_require=dict(tests=tests_require),
-      test_suite='senaite.labmedik.tests.test_docs.test_suite',
+      test_suite='senaite.labmedikdemos.tests.test_docs.test_suite',
       entry_points="""
       # -*- entry_points -*-
       [z3c.autoinclude.plugin]

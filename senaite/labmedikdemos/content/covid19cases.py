@@ -9,8 +9,8 @@ from Products.ATContentTypes.content import schemata
 
 # -*- Message Factory Imported Here -*-
 
-from senaite.labmedik.interfaces import ICOVID19Cases
-from senaite.labmedik.config import PROJECTNAME
+from senaite.labmedikdemos.interfaces import ICOVID19Cases
+from senaite.labmedikdemos.config import PROJECTNAME
 
 COVID19CasesSchema = folder.ATFolderSchema.copy() + atapi.Schema((
 
@@ -44,3 +44,4 @@ class COVID19Cases(folder.ATFolder):
     # -*- Your ATSchema to Python Property Bridges Here ... -*-
 
 atapi.registerType(COVID19Cases, PROJECTNAME)
+

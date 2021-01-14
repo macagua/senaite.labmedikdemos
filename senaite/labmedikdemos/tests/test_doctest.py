@@ -6,7 +6,7 @@ import doctest
 
 from Testing import ZopeTestCase as ztc
 
-from senaite.labmedik.tests import base
+from senaite.labmedikdemos.tests import base
 
 
 def test_suite():
@@ -14,7 +14,7 @@ def test_suite():
 
         # Demonstrate the main content types
         ztc.ZopeDocFileSuite(
-            'README.txt', package='senaite.labmedik',
+            'README.txt', package='senaite.labmedikdemos',
             test_class=base.FunctionalTestCase,
             optionflags=doctest.REPORT_ONLY_FIRST_FAILURE |
                 doctest.NORMALIZE_WHITESPACE | doctest.ELLIPSIS),
@@ -23,3 +23,4 @@ def test_suite():
 
 if __name__ == '__main__':
     unittest.main(defaultTest='test_suite')
+

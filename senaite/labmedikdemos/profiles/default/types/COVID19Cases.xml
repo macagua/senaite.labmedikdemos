@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <object name="COVID19Cases"
    meta_type="Factory-based Type Information with dynamic views"
-   i18n:domain="senaite.labmedik" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+   i18n:domain="senaite.labmedikdemos" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
   <property name="title" i18n:translate="">COVID-19 Cases</property>
   <property name="description"
     i18n:translate="">A folderish for COVID-19 Cases</property>
   <property name="content_meta_type">COVID19Cases</property>
   <property name="content_icon">++resource++bika.lims.images/folder.png</property>
-  <property name="product">senaite.labmedik</property>
+  <property name="product">senaite.labmedikdemos</property>
   <property name="factory">addCOVID19Cases</property>
   <property name="immediate_view">atct_edit</property>
   <property name="global_allow">True</property>

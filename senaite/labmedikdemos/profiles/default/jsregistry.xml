@@ -17,7 +17,7 @@
       for the latest list of all available keys and default values.
       -->
  <javascript
-    id="++resource++senaite.labmedik.javascripts/helloworld.js"
+    id="++resource++senaite.labmedikdemos.javascripts/helloworld.js"
     cacheable="False" compression="safe" cookable="False"
     enabled="True" expression="" inline="False" />
 

@@ -11,10 +11,10 @@ from Products.ATContentTypes.content import base
 from Products.ATContentTypes.content import schemata
 
 # -*- Message Factory Imported Here -*-
-from senaite.labmedik import labmedikMessageFactory as _
+from senaite.labmedikdemos import labmedikdemosMessageFactory as _
 
-from senaite.labmedik.interfaces import ICOVID19Case
-from senaite.labmedik.config import PROJECTNAME
+from senaite.labmedikdemos.interfaces import ICOVID19Case
+from senaite.labmedikdemos.config import PROJECTNAME
 
 COVID19CaseSchema = schemata.ATContentTypeSchema.copy() + atapi.Schema((
 
@@ -62,3 +62,4 @@ class COVID19Case(base.ATCTContent):
     # -*- Your ATSchema to Python Property Bridges Here ... -*-
 
 atapi.registerType(COVID19Case, PROJECTNAME)
+

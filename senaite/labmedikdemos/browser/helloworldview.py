@@ -3,7 +3,7 @@ from zope.interface import implements, Interface
 from Products.Five import BrowserView
 from Products.CMFCore.utils import getToolByName
 
-from senaite.labmedik import labmedikMessageFactory as _
+from senaite.labmedikdemos import labmedikdemosMessageFactory as _
 
 
 class IHelloWorldView(Interface):
@@ -41,3 +41,4 @@ class HelloWorldView(BrowserView):
         company = _(u'Plone Fundation!!!')
 
         return {'message': message, 'company': company,}
+

@@ -2,7 +2,7 @@
 """
 
 from zope.i18nmessageid import MessageFactory
-from senaite.labmedik import config
+from senaite.labmedikdemos import config
 
 from Products.Archetypes import atapi
 from Products.CMFCore import utils
@@ -11,7 +11,7 @@ from Products.CMFCore import utils
 # This will be imported with the special name "_" in most modules. Strings
 # like _(u"message") will then be extracted by i18n tools for translation.
 
-labmedikMessageFactory = MessageFactory('senaite.labmedik')
+labmedikdemosMessageFactory = MessageFactory('senaite.labmedikdemos')
 
 
 def initialize(context):
@@ -48,3 +48,4 @@ def initialize(context):
             permission=config.ADD_PERMISSIONS[atype.portal_type],
             extra_constructors=(constructor,),
             ).initialize(context)
+

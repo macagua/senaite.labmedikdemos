@@ -7,7 +7,7 @@ Its declaration is located in 'browser/configure.zcml':
 
     <!-- Resource directory for images -->
     <browser:resourceDirectory
-        name="senaite.labmedik.images"
+        name="senaite.labmedikdemos.images"
         directory="images"
         layer="bika.lims.interfaces.IBikaLIMS"
         />
@@ -15,7 +15,7 @@ Its declaration is located in 'browser/configure.zcml':
 An image placed in this directory (e.g. 'logo.png') can be accessed from
 this relative URL:
 
-    "++resource++senaite.labmedik.images/logo.png"
+    "++resource++senaite.labmedikdemos.images/logo.png"
 
 Note that it might be better to register each of these resources separately if
 you want them to be overridable from zcml directives.

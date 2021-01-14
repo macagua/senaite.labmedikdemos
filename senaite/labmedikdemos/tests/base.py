@@ -36,8 +36,8 @@ def setup_product():
     # This can of course use <include /> to include other packages.
 
     fiveconfigure.debug_mode = True
-    import senaite.labmedik
-    zcml.load_config('configure.zcml', senaite.labmedik)
+    import senaite.labmedikdemos
+    zcml.load_config('configure.zcml', senaite.labmedikdemos)
     fiveconfigure.debug_mode = False
 
     # We need to tell the testing framework that these products
@@ -51,14 +51,14 @@ def setup_product():
     # We may also need to load dependencies, e.g.:
     #   ztc.installPackage('borg.localrole')
 
-    ztc.installPackage('senaite.labmedik')
+    ztc.installPackage('senaite.labmedikdemos')
 
 # The order here is important: We first call the (deferred) function
 # which installs the products we need for this product. Then, we let
 # PloneTestCase set up this product on installation.
 
 setup_product()
-ptc.setupPloneSite(products=['senaite.labmedik'])
+ptc.setupPloneSite(products=['senaite.labmedikdemos'])
 
 
 class TestCase(ptc.PloneTestCase):
@@ -79,3 +79,4 @@ class FunctionalTestCase(ptc.FunctionalTestCase):
         self.portal.portal_membership.addMember('contributor',
                                                 'secret',
                                                 roles, [])
+

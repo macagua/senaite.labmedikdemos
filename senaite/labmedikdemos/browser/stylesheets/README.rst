@@ -7,7 +7,7 @@ Its declaration is located in 'browser/configure.zcml':
 
     <!-- Resource directory for stylesheets -->
     <browser:resourceDirectory
-        name="senaite.labmedik.stylesheets"
+        name="senaite.labmedikdemos.stylesheets"
         directory="stylesheets"
         layer="bika.lims.interfaces.IBikaLIMS"
         />
@@ -15,7 +15,7 @@ Its declaration is located in 'browser/configure.zcml':
 An stylesheets placed in this directory (e.g. 'main.css') can be accessed from
 this relative URL:
 
-    "++resource++senaite.labmedik.stylesheets/main.css"
+    "++resource++senaite.labmedikdemos.stylesheets/main.css"
 
 Note that it might be better to register each of these resources separately if
 you want them to be overridable from zcml directives.
