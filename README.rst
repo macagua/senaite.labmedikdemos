@@ -53,6 +53,8 @@ Installation
 
 Install ``senaite.labmedikdemos`` by adding it to your buildout:
 
+::
+
    [buildout]
 
     ...
