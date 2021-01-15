@@ -5,25 +5,25 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     i18n_domain="senaite.labmedikdemos">
     
+  <!-- Initialize the package and setup "Add" permissions for all types -->
   <five:registerPackage package="." initialize=".initialize" />
 
   <!-- Include the sub-packages that use their own configure.zcml files. -->
   <include package=".browser" />
   <include package=".content" />
-  <include package=".portlets" />
+  <!-- <include package=".portlets" /> -->
   
   <!-- Register the installation GenericSetup extension profile -->
   <genericsetup:registerProfile
       name="default"
-      title="SENAITE LABMEDIK"
+      title="SENAITE LABMEDIK DEMOS"
       directory="profiles/default"
-      description="SENAITE LIMS extension for LabMedik Solution"
+      description="Custom demostration extension that adapts SENAITE LIMS for LabMedik Solution"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   
   <!-- -*- extra stuff goes here -*- -->
 
-  <include package=".browser" />
   
 
 </configure>
