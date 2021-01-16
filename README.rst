@@ -46,7 +46,9 @@ Translations
 
 This product has been translated into
 
-- English
+- English.
+
+- Spanish.
 
 
 Installation
