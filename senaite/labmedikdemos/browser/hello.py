@@ -1,5 +1,5 @@
-#from Products.five.browser import BrowserView
-from bika.lims.browser import BrowserView
+from Products.Five import BrowserView
+# from bika.lims.browser import BrowserView
 
 class HelloWorld(BrowserView):
     '''

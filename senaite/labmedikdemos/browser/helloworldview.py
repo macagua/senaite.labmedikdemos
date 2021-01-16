@@ -38,7 +38,6 @@ class HelloWorldView(BrowserView):
         test method
         """
         message = _(u'Hello world,')
-        company = _(u'Plone Fundation!!!')
+        company = _(u'Plone Foundation!!!')
 
         return {'message': message, 'company': company,}
-
