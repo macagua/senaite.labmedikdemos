@@ -11,7 +11,7 @@ import subprocess
 import sys
 
 SRC = "${buildout:directory}"
-LOCALES = SRC + '/senaite/labmedik/locales'
+LOCALES = SRC + '/senaite/labmedikdemos/locales'
 OUTFILE = SRC + '/CONTRIBUTORS.rst'
 
 # User names or emails to be replaced. If the value is None, the committer will
