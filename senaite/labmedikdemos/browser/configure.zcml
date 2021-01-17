@@ -7,22 +7,25 @@
 
   <!-- -*- extra stuff goes here -*- -->
 
+  <!-- Zope 2 View Hello World as @@hello -->
   <browser:page
-      for="*"
-      name="helloworld_view"
-      class=".helloworldview.HelloWorldView"
-      template="helloworldview.pt"
-      allowed_interface=".helloworldview.IHelloWorldView"
-      permission="zope.Public"
-      />
-
-  <browser:page 
       name="hello"
       for="*"
       class=".hello.HelloWorld"
       permission="zope2.Public"
       />
 
+  <!-- Plone 4 View Hello World as @@helloworld_view -->
+  <browser:page
+      name="helloworld_view"
+      for="*"
+      class=".helloworldview.HelloWorldView"
+      template="helloworldview.pt"
+      allowed_interface=".helloworldview.IHelloWorldView"
+      permission="zope.Public"
+      />
+
+  <!-- Plone 4 Viewlet Hello World -->
   <browser:viewlet
       name="senaite.labmedikdemos.helloworld"
       manager="plone.app.layout.viewlets.interfaces.IAboveContent"

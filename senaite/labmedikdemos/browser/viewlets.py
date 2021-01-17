@@ -6,4 +6,3 @@ class MyHelloWorldViewlet(ViewletBase):
 
 	def update(self):
 		self.company = 'Plone Fundation'
-
