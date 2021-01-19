@@ -1,8 +1,10 @@
 <div id="hello-world" i18n:domain="senaite.labmedikdemos">
   <span tal:content="view/company|nothing"/>
-  <b><span i18n:translate="">Please,</span> <a href="#" onclick="helloworld()" i18n:translate="">Click</a> <span i18n:translate="">to try!</span></b>
   <br/>
-  <img alt="Netmedik"
+  <b><span i18n:translate="">Please,</span> <a href="#" onclick="helloworld()" i18n:translate="">Click</a> <span i18n:translate="">to try!</span></b>
+  <br/><br/>
+  <img alt="Netmedik" i18n:attributes="alt"
        tal:attributes="src string:${context/@@plone_portal_state/portal_url}/++resource++senaite.labmedikdemos.images/netmedik-logo.png" />
+  <br/>
 </div>
 

@@ -30,7 +30,7 @@
       name="senaite.labmedikdemos.helloworld"
       manager="plone.app.layout.viewlets.interfaces.IAboveContent"
       class=".viewlets.MyHelloWorldViewlet"
-      permission="senaite.core.permissions.ManageBika"
+      permission="zope2.View"
       layer="bika.lims.interfaces.IBikaLIMS"
       />
 

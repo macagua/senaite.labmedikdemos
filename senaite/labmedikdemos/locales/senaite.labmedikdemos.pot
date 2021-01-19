@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-16 11:18+0000\n"
+"POT-Creation-Date: 2021-01-19 21:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Case ID"
 msgstr ""
 
-#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:3
+#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:4
 msgid "Click"
 msgstr ""
 
@@ -61,11 +61,16 @@ msgstr ""
 msgid "If no value is entered, the Title will be auto-generated."
 msgstr ""
 
-#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:3
+#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:6
+msgid "Netmedik"
+msgstr ""
+
+#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:4
 msgid "Please,"
 msgstr ""
 
 #: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/helloworldview.py:41
+#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/viewlets.py:10
 msgid "Plone Foundation!!!"
 msgstr ""
 
@@ -73,6 +78,6 @@ msgstr ""
 msgid "SENAITE LABMEDIK DEMOS"
 msgstr ""
 
-#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:3
+#: /home/macagua/proyectos/plone/lims/senaite/senaite.labmedikdemos/senaite/labmedikdemos/browser/myhelloworldviewlet.pt:4
 msgid "to try!"
 msgstr ""
